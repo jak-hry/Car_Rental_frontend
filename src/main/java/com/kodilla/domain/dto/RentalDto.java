@@ -1,4 +1,4 @@
-package com.kodilla.domain;
+package com.kodilla.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -19,4 +19,6 @@ public class RentalDto {
     private LocalDateTime startDate;
     private LocalDateTime endDate;
     private BigDecimal totalCost;
+    private Integer rentalDuration;
+    private DamagePenaltyDto damagePenalty;
 }
